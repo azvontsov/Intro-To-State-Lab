@@ -25,7 +25,7 @@ export default function App() {
       <h1>Cities Of The World</h1>
       <div id="wrapper">
         <div id="thumbnails">{images}</div>
-        {<img src={bigImage} id="bigimage" alt="bigImage" />}
+        <img src={bigImage} id="bigimage" alt="bigImage" />
       </div>
     </div>
   );

@@ -40,10 +40,10 @@ p {
   display: block;
   cursor: pointer;
   object-fit: cover;
-  padding: 3px;
+  padding: 4px;
 }
 
 .selected {
-  border: solid #079b29 3px;
+  border: solid #079b29 4px;
   padding: 0;
 }
