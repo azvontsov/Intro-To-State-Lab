@@ -12,7 +12,12 @@ export default function App() {
   }
 
   const images = imagesArr.map((image, index) => (
-    <Image key={index} handleClick={handleClick} {...image} />
+    <Image
+      selected={image.src === bigImage}
+      key={index}
+      handleClick={handleClick}
+      {...image}
+    />
   ));
 
   return (

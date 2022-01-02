@@ -1,9 +1,9 @@
 import React from "react";
 
-const Image = ({ src, alt, handleClick }) => {
+const Image = ({ selected, src, alt, handleClick }) => {
   return (
     <img
-      className="thumb"
+      className={selected ? "thumb selected" : "thumb"}
       src={src}
       alt={alt}
       onClick={() => handleClick(src)}
